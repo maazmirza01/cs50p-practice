@@ -19,3 +19,16 @@ name = input("what's your name? ").strip().title()
 first, last = name.split()
 print(f"hello, {last}!") # how to split a string into multiple variables, and how to use the title() method to capitalize the first letter of each word in a string
 
+
+
+def hello(to="world"): # how to define a function in python, and how to use default parameters
+    print("hello", to) # how to define a function in python, and how to call a function
+
+def main():
+    newname = input("what's your new name? ")
+    hello(newname)
+    def goodbye(to="world"):
+        print("goodbye", to)   # how to call a function that is defined inside another function, and how to use default parameters in a function
+
+
+main()
