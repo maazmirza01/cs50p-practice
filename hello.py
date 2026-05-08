@@ -14,5 +14,8 @@ print("have a \"beautiful\" Day!") # how to use escape characters to include spe
 
 print(f"hello, {name}!") # how to use f-strings to include variables in a string without concatenation
 
+name = input("what's your name? ").strip().title()
 
+first, last = name.split()
+print(f"hello, {last}!") # how to split a string into multiple variables, and how to use the title() method to capitalize the first letter of each word in a string
 
