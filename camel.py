@@ -45,16 +45,13 @@ def letter_count(list):
     return i
 
 def joiner(wordlist, letterlist):
-    n = word_counter(letterlist)
+
     i = 0
     word_complete = ""
     for c in wordlist:
-        word_complete = word_complete + c
-        i += 1
-        if i <= n:
-            word_complete = word_complete + "_"
-        
-    
+        word_complete = word_complete + c + " "
+    word_complete = word_complete.strip()
+    word_complete = word_complete.replace(" ", "_")    
     return word_complete
 
 
