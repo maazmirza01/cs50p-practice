@@ -13,7 +13,7 @@ print(f"x is {x}")
 
 def main():
     x = get_int()
-    print(f"x is {x}")
+    print("x is : ", x)
 
 def get_int():
     while True:
@@ -25,7 +25,7 @@ def get_int():
     return x
 
 main()
-
+# this is file is notes from my lecture on Exceptions.
 
 
 
