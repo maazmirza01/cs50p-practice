@@ -1,0 +1,5 @@
+hermit
+crab
+rattle
+snake
+door
